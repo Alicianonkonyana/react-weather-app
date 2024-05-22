@@ -1,3 +1,79 @@
 .Weather {
-  background-color: #ffffff;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #f9f7fe;
+  border-radius: 4px;
+  margin: 30px auto;
+  max-width: 600px;
+}
+body {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  background: #f9f7fe;
+}
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.Search-form {
+  margin: 30px;
+}
+.Form-control {
+  background: #f9f7fe;
+  padding: 20px 80px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.Submit-button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 30px;
+  font-size: 16px;
+  background: #885df1;
+  color: white;
+}
+
+.Current-weather {
+  text-align: start;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: rgb(135, 135, 135);
+
+  display: block;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Temperature {
+  margin-left: 10px;
+  line-height: 80px;
+  font-weight: 700;
+
+  position: relative;
+  top: 18px;
+  font-size: 80px;
+}
+footer {
+  color: rgb(135, 135, 135);
+  display: block;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 30px;
+}
+.Temperature-unit {
+  line-height: 28px;
+  margin-left: -10px;
+  font-weight: 400;
+  font-size: 22px;
+  position: relative;
+  bottom: 28px;
 }
